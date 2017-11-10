@@ -5,6 +5,7 @@ gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.
 gem 'kaminari'
 
 gem 'dev_toolbar', git: 'https://github.com/firstdraft/dev_toolbar.git'
+gem "web_git", git: "https://github.com/firstdraft/web_git"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
