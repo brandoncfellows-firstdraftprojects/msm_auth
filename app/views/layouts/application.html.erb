@@ -71,6 +71,8 @@
     <% end %>
 
     <%= yield %>
+
+    <%= dev_toolbar if Rails.env.development? %>
   </div>
 </body>
 </html>

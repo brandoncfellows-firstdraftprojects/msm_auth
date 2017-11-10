@@ -4,6 +4,14 @@ GIT
   specs:
     starter_generators (0.9.6)
 
+GIT
+  remote: https://github.com/firstdraft/dev_toolbar.git
+  revision: f9745615dc922c3e8471b27fd1826415dd12cfd8
+  specs:
+    dev_toolbar (0.1.0)
+      better_errors
+      rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -218,6 +226,7 @@ DEPENDENCIES
   binding_of_caller
   capybara
   coffee-rails (~> 4.1.0)
+  dev_toolbar!
   jbuilder (~> 2.0)
   jquery-rails
   kaminari
