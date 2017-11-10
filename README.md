@@ -20,3 +20,5 @@ Have the [Devise Guide](https://guides.firstdraft.com/authentication-and-authori
  1. `bin/setup`
  1. `bin/server` and navigate to the live app
  1. Click around and remind yourself what the associations are / how they work.
+
+There are no automated tests or `rails grade:all` for this project; it's just an in-class introductory exercise.
