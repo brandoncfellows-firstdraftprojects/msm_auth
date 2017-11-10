@@ -4,9 +4,6 @@ gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.
 
 gem 'kaminari'
 
-gem 'dev_toolbar', git: 'https://github.com/firstdraft/dev_toolbar.git'
-gem "web_git", git: "https://github.com/firstdraft/web_git"
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
 # Use sqlite3 as the database for Active Record
@@ -44,6 +41,9 @@ group :development do
   gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'dev_toolbar', git: 'https://github.com/firstdraft/dev_toolbar.git'
+  gem "web_git", git: "https://github.com/firstdraft/web_git"
+  gem "web-console"
 end
 
 gem 'rspec-rails', group: [:test, :development]
