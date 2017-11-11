@@ -22,3 +22,10 @@ Have the [Devise Guide](https://guides.firstdraft.com/authentication-and-authori
  1. Click around and remind yourself what the associations are / how they work.
 
 There are no automated tests or `rails grade:all` for this project; it's just an in-class introductory exercise.
+
+In this project I've already installed the Devise gem. To generate your first table that has user authentication built in,
+
+```
+rails generate user first_name:string last_name:string
+rails db:migrate
+```
