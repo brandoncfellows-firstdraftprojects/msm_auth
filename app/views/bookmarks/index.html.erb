@@ -14,10 +14,10 @@
         <th>Actions</th>
       </tr>
 
-      <% @bookmarks.each do |bookmark| %>
+      <% current_user.bookmarks.each do |bookmark| %>
       <tr>
-        <td><%= bookmark.movie_id %></td>
-        <td><%= bookmark.user_id %></td>
+        <td><%= bookmark.movie.title %></td>
+        <td><%= bookmark.user.email %></td>
         <td>
           <a href="/bookmarks/<%= bookmark.id %>" class="btn btn-primary">Show</a>
           <a href="/bookmarks/<%= bookmark.id %>/edit" class="btn btn-warning">Edit</a>

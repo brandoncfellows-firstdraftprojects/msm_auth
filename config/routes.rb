@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # Routes for the Bookmark resource:
   # CREATE
   get "/bookmarks/new", :controller => "bookmarks", :action => "new"
@@ -51,6 +52,8 @@ Rails.application.routes.draw do
   #------------------------------
 
   get "/", :controller => "movies", :action => "index"
+
+  root "movies#index"
 
   # Routes for the Movie resource:
   # CREATE
